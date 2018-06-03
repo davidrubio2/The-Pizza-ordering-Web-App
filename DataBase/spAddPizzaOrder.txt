@@ -1,0 +1,13 @@
+Create procedure spAddPizzaOrder
+(
+ @FirstName VARCHAR(30),
+ @LastName VARCHAR(50),
+ @PhoneNumber VARCHAR(10),
+ @PizzaDelivered datetime,
+ @NumberOfPizzas int
+)
+ as
+ Begin
+	Insert into pizza_order(FirstName,LastName,PhoneNumber,PizzaDelivered,NumberOfPizzas) 
+	values( @FirstName,@LastName,@PhoneNumber,@PizzaDelivered,@NumberOfPizzas)
+ end
