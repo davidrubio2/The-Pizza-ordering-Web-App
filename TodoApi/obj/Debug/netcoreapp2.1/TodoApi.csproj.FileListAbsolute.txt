@@ -1,0 +1,28 @@
+C:\Users\X\Desktop\New folder\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.deps.json
+C:\Users\X\Desktop\New folder\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.runtimeconfig.json
+C:\Users\X\Desktop\New folder\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.runtimeconfig.dev.json
+C:\Users\X\Desktop\New folder\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.dll
+C:\Users\X\Desktop\New folder\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.pdb
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.csprojAssemblyReference.cache
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.csproj.CoreCompileInputs.cache
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorAssemblyInfo.cache
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorAssemblyInfo.cs
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.AssemblyInfoInputs.cache
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.AssemblyInfo.cs
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorTargetAssemblyInfo.cache
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.dll
+C:\Users\X\Desktop\New folder\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.pdb
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.deps.json
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.runtimeconfig.json
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.runtimeconfig.dev.json
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.dll
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.pdb
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.csprojAssemblyReference.cache
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.csproj.CoreCompileInputs.cache
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorAssemblyInfo.cache
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorAssemblyInfo.cs
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.AssemblyInfoInputs.cache
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.AssemblyInfo.cs
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.RazorTargetAssemblyInfo.cache
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.dll
+C:\Users\X\Desktop\New folder (4)\The-Pizza-ordering-Web-App\TodoApi\obj\Debug\netcoreapp2.1\TodoApi.pdb
