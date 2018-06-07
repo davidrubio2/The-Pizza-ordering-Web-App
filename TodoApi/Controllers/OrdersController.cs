@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 
-
 namespace TodoApi.Controllers
 {
     [Route("api/[controller]")]
@@ -16,16 +15,16 @@ namespace TodoApi.Controllers
     public class OrdersController : Controller
     {
   
-     PizzasDataAccessLayer objPizzas = new PizzasDataAccessLayer();
+     OrdersDataAccessLayer objOrders = new OrdersDataAccessLayer();
 
         // GET api/values
         [HttpGet]
-        public  ActionResult<List<Pizzas>> GetAll()
+        public  ActionResult<List<Orders>> GetAll()
         {
-            List<Pizzas> lstPizzas = new List<Pizzas>();  
-            lstPizzas = objPizzas.GetAllPizzasOrders().ToList();  
+            List<Orders> lstOrders = new List<Orders>();  
+            lstOrders = objOrders.GetAllPizzasOrders().ToList();  
   
-            return lstPizzas; 
+            return lstOrders; 
 
         }
 

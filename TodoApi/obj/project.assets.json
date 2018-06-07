@@ -11506,23 +11506,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\X\\.nuget\\packages\\": {},
+    "C:\\Users\\ALIEN\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\X\\Desktop\\New folder (4)\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "c:\\Users\\ALIEN\\Downloads\\New folder (2)\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\X\\Desktop\\New folder (4)\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
-      "packagesPath": "C:\\Users\\X\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\X\\Desktop\\New folder (4)\\The-Pizza-ordering-Web-App\\TodoApi\\obj\\",
+      "projectPath": "c:\\Users\\ALIEN\\Downloads\\New folder (2)\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\ALIEN\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ALIEN\\Downloads\\New folder (2)\\The-Pizza-ordering-Web-App\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\X\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ALIEN\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

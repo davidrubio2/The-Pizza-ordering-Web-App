@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TodoApi.Models
 {
-    public class Pizzas
+    public class Orders
     {
         public int Id {get; set;}
         public string sFirstName {get; set;}

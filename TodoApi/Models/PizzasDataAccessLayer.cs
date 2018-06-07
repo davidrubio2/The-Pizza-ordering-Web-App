@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace TodoApi.Models
 {
-    public class PizzasDataAccessLayer
+    public class OrdersDataAccessLayer
     {
-        string sConnection = @"Server=DESKTOP-ACVT6B5\SQLEXPRESS;Database=pizzas;Trusted_Connection=True;MultipleActiveResultSets=true";
-        public IEnumerable<Pizzas> GetAllPizzasOrders()
+        string sConnection = @"Server=ALIEN\SQLEXPRESS;Database=pizzas;Trusted_Connection=True;MultipleActiveResultSets=true";
+        public IEnumerable<Orders> GetAllPizzasOrders()
         {
-            List<Pizzas> lstPizzas = new List<Pizzas>();
+            List<Orders> lstOrders = new List<Orders>();
 
             using(SqlConnection con = new SqlConnection(sConnection))
             {
@@ -23,23 +23,23 @@ namespace TodoApi.Models
                 SqlDataReader rdr = cmd.ExecuteReader();
                 while(rdr.Read())
                 {
-                    Pizzas pizzas = new Pizzas();
+                    Orders orders = new Orders();
 
-                    pizzas.Id = Convert.ToInt32(rdr["ID"]);
-                    pizzas.sFirstName = rdr["FirstName"].ToString();
-                    pizzas.sLastName = rdr["LastName"].ToString();
-                    pizzas.sPhoneNumber = rdr["PhoneNumber"].ToString();
-                    pizzas.dtPizzaDelivered = rdr["PizzaDelivered"].ToString();
-                    pizzas.iNumberOfPizzas = Convert.ToInt32(rdr["NumberOfPizzas"]);
+                    orders.Id = Convert.ToInt32(rdr["ID"]);
+                    orders.sFirstName = rdr["FirstName"].ToString();
+                    orders.sLastName = rdr["LastName"].ToString();
+                    orders.sPhoneNumber = rdr["PhoneNumber"].ToString();
+                    orders.dtPizzaDelivered = rdr["PizzaDelivered"].ToString();
+                    orders.iNumberOfPizzas = Convert.ToInt32(rdr["NumberOfPizzas"]);
 
-                    lstPizzas.Add(pizzas);
+                    lstOrders.Add(orders);
                 }
                 con.Close();
             }
-            return lstPizzas;
+            return lstOrders;
         }
 
-        public void AddPizzaOrder(Pizzas pizzas)
+        public void AddPizzaOrder(Orders pizzas)
         {
             using (SqlConnection con = new SqlConnection(sConnection))
             {
