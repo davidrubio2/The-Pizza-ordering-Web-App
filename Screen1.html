@@ -2,20 +2,16 @@
 
 <html>
 <script src="https://code.angularjs.org/1.2.1/angular.min.js"></script>
-<div class="container" ng-app="myApp">
-    <div class="form-area" ng-controller="formCtrl">
+<div class="container" ng-app="PizzasApp">
+    <div class="form-area" ng-controller="OrdersController">
 
         <head>
-            <link rel="stylesheet" type="text/css" href="mystyle.css">
-
+            <link rel="stylesheet" type="text/css" href="style.css">
         </head>
-
         <body>
-
             <title>Ace Of Spades Pizza</title>
             <h1>Ace Of Spades Pizza</h1>
-
-
+            <section class="contact-wrap">
             <form name="inquiryForm" novalidate>
                 <div>
                     <label for="name">First name:</label>
@@ -59,9 +55,9 @@
                     <button type="button" id="submit" name="submit" class="btn btn-primary pull-right" ng-disabled="inquiryForm.$invalid">Order Pizza</button>
                 </div>
             </form>
-
+        </section>
         </body>
     </div>
 </div>
-<script src="myScript.js"></script>
+<script src="Script.js"></script>
 </html>
