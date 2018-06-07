@@ -21,11 +21,17 @@ namespace TodoApi.Controllers
         [HttpGet]
         public  ActionResult<List<Orders>> GetAll()
         {
-            List<Orders> lstOrders = new List<Orders>();  
-            lstOrders = objOrders.GetAllPizzasOrders().ToList();  
-  
-            return lstOrders; 
+            return objOrders.GetAllPizzasOrders().ToList(); 
 
+        }
+
+        [HttpPost]
+        public ActionResult  Post(Orders order)
+        {
+            
+            objOrders.AddPizzaOrder(order);
+
+            return Ok();
         }
 
     }
