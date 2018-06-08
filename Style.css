@@ -1,34 +1,13 @@
-.contact-form{
-  .input-block{
-     margin-bottom: 20px;
-     position: relative; 
-}  
-}
-
-
-.red-text{
-color:red;
+#bodyOrders h1 {
+  color:red;
 }
 
 label, input[type="submit"] {
-width: 130px;
-display: inline-block;
+  width: 130px;
+  display: inline-block;
 }
 
 div {
-margin: 10px;
-}
-
-h1{
-color: lighten(red, 10%); 
-text-align: center;
-} 
-
-
-@media (min-width: 768px) {
-.contact-wrap {
-  width: 60%;
-  margin: auto;
-}
+  margin: 10px;
 }
 
