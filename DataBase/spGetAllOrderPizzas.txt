@@ -2,5 +2,5 @@ Create procedure spGetAllOrderPizzas
 as
 Begin
 	select *
-	from pizza_order
+	from pizza_order order by ID desc
 End
