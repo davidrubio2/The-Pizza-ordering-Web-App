@@ -1,20 +1,20 @@
 'use strict';
 
-var PizzaApp = angular.module('PizzaApp', ['ngRoute', 'GetAppOrders','SaveAppOrders']);
+var PizzaApp = angular.module('PizzaApp', ['ngRoute', 'GetOrders','SaveOrders']);
 PizzaApp.config(['$routeProvider',
     function (
         $routeProvider
     ) {
         $routeProvider.
-            when('/Screen1', {
-                templateUrl: 'pages/Screen1.html',
+            when('/saveOrders', {
+                templateUrl: 'pages/saveOrders.html',
                 controller: 'SaveOrdersController'
             }).
-            when('/Screen2', {
-                templateUrl: 'pages/Screen2.html',
+            when('/showOrders', {
+                templateUrl: 'pages/showOrders.html',
                 controller: 'GetAllOrdersController'
             }).
             otherwise({
-                redirectTo: '/Screen1'
+                redirectTo: '/saveOrders'
             });
     }]);
