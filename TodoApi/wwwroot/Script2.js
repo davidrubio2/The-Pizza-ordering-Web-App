@@ -1,7 +1,7 @@
 angular.module('GetOrdersAppServices', [])
         .factory('GetOrdersService', ['$http', function ($http) {
                 var handler = {
-                        getOrders: function () {
+                        getOrdersFun: function () {
                                 var url = 'https://localhost:5001/api/orders'
                                 return $http.get(url)
                         },
@@ -11,12 +11,12 @@ angular.module('GetOrdersAppServices', [])
                 return handler;
         }]);
 
-var GetAppOrders = angular.module("GetAppOrders", ['GetOrdersAppServices']);
-GetAppOrders.controller("GetAllOrdersController", ['$scope', 'GetOrdersService', function ($scope, GetOrdersService) {
+var GetOrders = angular.module("GetOrders", ['GetOrdersAppServices']);
+GetOrders.controller("GetAllOrdersController", ['$scope', 'GetOrdersService', function ($scope, GetOrdersService) {
 
         $scope.GetOrdersAppServices = []
 
-        GetOrdersService.getOrders().then(function (response) {
+        GetOrdersService.getOrdersFun().then(function (response) {
                 $scope.orders = response.data;
         });
 }]);

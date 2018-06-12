@@ -11,8 +11,8 @@ angular.module('SaveOrdersAppServices', [])
         }]);
 
 
-var SaveAppOrders = angular.module("SaveAppOrders", ['SaveOrdersAppServices']);
-SaveAppOrders.controller("SaveOrdersController", ['$scope', 'SaveOrdersService', function ($scope, SaveOrdersService) {
+var SaveOrders = angular.module("SaveOrders", ['SaveOrdersAppServices']);
+SaveOrders.controller("SaveOrdersController", ['$scope', 'SaveOrdersService', function ($scope, SaveOrdersService) {
         $scope.ph_numbr = /^\+?\d{10}$/;
         $scope.last_name = /^[a-zA-Z ]+$/;
         $scope.first_name = /^[a-zA-Z ]+$/;
@@ -28,6 +28,11 @@ SaveAppOrders.controller("SaveOrdersController", ['$scope', 'SaveOrdersService',
                 SaveOrdersService.putOrder(data).then(function (response) {
                         $scope.SaveOrdersAppServices.push(response.data)
                 });
+			$scope.firstname = null;
+			$scope.lastname = null;
+			$scope.contact = null;
+			$scope.deliveredtimedate = null;
+			$scope.numberOfPizzas = null;
         }
 }]);
 
