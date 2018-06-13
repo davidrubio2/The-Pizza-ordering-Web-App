@@ -13,18 +13,21 @@
                 <li ng-repeat="order in orders" class="list-group-item">
 
                     <strong>ID: </strong>
+                    <span>{{ order.id }}</span>
+
+                    <strong>First Name: </strong>
                     <span>{{ order.sFirstName }}</span>
 
-                    <strong>Name: </strong>
+                    <strong>Last Name: </strong>
                     <span>{{ order.sLastName }}</span>
 
-                    <strong>Last Name: </strong>
-                    <span>{{ order.sPhoneNumber }}</span>
-
                     <strong>Phone: </strong>
-                    <span>{{ order.dtPizzaDelivered }}</span>
-
-                    <strong>Cuantity: </strong>
+                    <span>{{ order.sPhoneNumber }}</span>
+					
+					<strong>Date and Time: </strong>
+                    <span>{{ order.dtPizzaDelivered}}</span>
+					
+                    <strong>Number of pizzas: </strong>
                     <span>{{ order.iNumberOfPizzas}}</span>
                 </li>
             </ul>
