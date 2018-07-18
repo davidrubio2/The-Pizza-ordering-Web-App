@@ -9,7 +9,9 @@ namespace TodoApi.Models
 {
     public class OrdersDataAccessLayer
     {
-        string sConnection = @"Server=ALIEN\SQLEXPRESS;Database=pizzas;Trusted_Connection=True;MultipleActiveResultSets=true";
+        string sConnection = @"Server=tcp:centralpizzas.database.windows.net;Database=CentralPizzas;
+User ID=test@centralpizzas;Password=Cane123#;Trusted_Connection=False;
+Encrypt=True;";
         public IEnumerable<Orders> GetAllPizzasOrders()
         {
             List<Orders> lstOrders = new List<Orders>();
