@@ -1,0 +1,37 @@
+<head>
+    <title>Ace Of Spades Pizza</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container">
+            <h1 align="center">Order Pizza</h1>
+            <form name="inquiryForm" novalidate>
+            </form>
+            <ul class="list-group">
+                <li ng-repeat="order in orders" class="list-group-item">
+
+                    <strong>ID: </strong>
+                    <span>{{ order.id }}</span>
+
+                    <strong>First Name: </strong>
+                    <span>{{ order.sFirstName }}</span>
+
+                    <strong>Last Name: </strong>
+                    <span>{{ order.sLastName }}</span>
+
+                    <strong>Phone: </strong>
+                    <span>{{ order.sPhoneNumber }}</span>
+					
+					<strong>Date and Time: </strong>
+                    <span>{{ order.dtPizzaDelivered}}</span>
+					
+                    <strong>Number of pizzas: </strong>
+                    <span>{{ order.iNumberOfPizzas}}</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</body>

@@ -11512,11 +11512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ALIEN\\Downloads\\New folder (2)\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "c:\\Users\\ALIEN\\Desktop\\Paginas\\The-Pizza-ordering-Web-App-master\\The-Pizza-ordering-Web-App-master\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "c:\\Users\\ALIEN\\Downloads\\New folder (2)\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
+      "projectPath": "c:\\Users\\ALIEN\\Desktop\\Paginas\\The-Pizza-ordering-Web-App-master\\The-Pizza-ordering-Web-App-master\\The-Pizza-ordering-Web-App\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\ALIEN\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ALIEN\\Downloads\\New folder (2)\\The-Pizza-ordering-Web-App\\TodoApi\\obj\\",
+      "outputPath": "c:\\Users\\ALIEN\\Desktop\\Paginas\\The-Pizza-ordering-Web-App-master\\The-Pizza-ordering-Web-App-master\\The-Pizza-ordering-Web-App\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

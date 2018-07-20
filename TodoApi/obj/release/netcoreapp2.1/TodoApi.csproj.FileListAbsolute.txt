@@ -1,0 +1,14 @@
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\bin\release\netcoreapp2.1\TodoApi.deps.json
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\bin\release\netcoreapp2.1\TodoApi.runtimeconfig.json
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\bin\release\netcoreapp2.1\TodoApi.runtimeconfig.dev.json
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\bin\release\netcoreapp2.1\TodoApi.dll
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\bin\release\netcoreapp2.1\TodoApi.pdb
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.csprojAssemblyReference.cache
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.csproj.CoreCompileInputs.cache
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.RazorAssemblyInfo.cache
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.RazorAssemblyInfo.cs
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.AssemblyInfoInputs.cache
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.AssemblyInfo.cs
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.RazorTargetAssemblyInfo.cache
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.dll
+C:\Users\ALIEN\Desktop\Paginas\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App-master\The-Pizza-ordering-Web-App\todoapi\obj\release\netcoreapp2.1\TodoApi.pdb

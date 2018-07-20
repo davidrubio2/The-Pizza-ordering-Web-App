@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/90302f04-cc65-4606-9f77-409e5b54d921/resourceGroups/appsvc_rg_windows_westus/providers/Microsoft.Web/sites/seample",
+    "appService.deploySubpath": ""
+}
